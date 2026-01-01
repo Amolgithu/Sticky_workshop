@@ -1,1 +1,23 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+@theme {
+    --animate-pinit: pinit 1s ease-in;
+
+    @keyframes pinit {
+        0% {
+            scale: 5.0;
+            rotate: -60deg;
+        }
+
+        50% {
+            scale: 1.0;
+            rotate: -60deg
+        }
+
+        100% {
+            scale: 1.0;
+            rotate: 0deg;
+        }
+    }
+
+}

@@ -1,6 +1,6 @@
 # Sticky Workshop
 
-## This is a simple project which helps you manage your sticky nots in the browser.
+## This is a simple project which helps you manage your sticky notes in the browser.
 
 ## How to run
 ```bash
