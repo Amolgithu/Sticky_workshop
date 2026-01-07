@@ -2,9 +2,17 @@ import React from 'react'
 import Stickyname from './Stickyname'
 import Stickybody from './Stickybody'
 
-const Stickynote = () => {
+const Stickynote = ({location}) => {
+  // console.log(location)
   return (
-    <div className='absolute inline border-2 rounded-sm border-lime-700 bg-lime-200'>
+    <div
+     style={
+      {left : location.x,top:location.y}
+    } 
+
+    id={location.id}
+    
+    className={` absolute z-10  inline border-2 rounded-sm border-lime-700 bg-lime-200}`}>
         <Stickyname/>
         <Stickybody/>
     </div>

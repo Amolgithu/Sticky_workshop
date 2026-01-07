@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-    --animate-pinit: pinit 1s ease-in;
+    --animate-pinit: pinit 1s ease-in infinite;
 
     @keyframes pinit {
         0% {
